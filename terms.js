@@ -17,24 +17,18 @@ const makeDocFrag = tagString => {
 setTimeout(function () {
   const headingArray = Array.from(document.querySelectorAll(".heading"));
   const descriptionArray = Array.from(document.querySelectorAll(".description"));
-
-  setTimeout(function () {
-    body.innerHTML = '';
-    html.style.overflow = 'visible';
-  }, 1000);
-
-  setTimeout(function () {
-    headingArray.forEach((el, i) => {
-      body.appendChild(makeDocFrag(`
+  body.innerHTML = '';
+  html.style.overflow = 'visible';
+  
+  headingArray.forEach((el, i) => {
+    body.appendChild(makeDocFrag(`
     <div>
 	    <p><b>${el.innerText}</b></p>
-	    <br>
 	    <p>${descriptionArray[i].innerText}</p>
 	    <br>
     </div`));
-    });
-  }, 2000);
+  });
 
-}, 3000);
+}, 2000);
 
 
