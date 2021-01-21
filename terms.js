@@ -1,6 +1,8 @@
-/*To use: Go to Jones & Bartlett site for your ebook - Essentials of Computer Organization & Architecture, Fifth Edition - 
-Open dev tools in browser with ctrl+shift+i 
-Go to the console and paste in the code and press enter (ctrl+enter in in multiline mode)
+/*To use: 
+1. Go to Jones & Bartlett site for your ebook - Essentials of Computer Organization & Architecture, Fifth Edition - 
+2. Open dev tools in the browser with ctrl+shift+i 
+3. Go to the console tab in dev tools, paste in the code, and press enter (ctrl+enter if in multiline mode).
+
 Should take a few seconds to clear the screen and display all glossary terms formatted for easy copying with ctrl+c 
 */
 
