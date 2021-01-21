@@ -1,4 +1,16 @@
+html {
+  background-color: rgb(233, 226, 213);
+}
+
 p {
   max-width:33em;
   word-wrap:break-word;
+}
+
+b {
+  color: rgb(51, 51, 230);
+}
+
+br:nth-child(2) {
+  display: none;
 }
